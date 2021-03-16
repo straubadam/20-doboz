@@ -1,0 +1,46 @@
+body {
+    width: 800px;
+}
+
+#felsokekfeherdoboz {
+    display: flex;
+    border: solid 2px DodgerBlue;
+    list-style-type: none;
+    width: 100%;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#alsolilanarancsdoboz {
+    display: flex;
+    border: solid 2px DodgerBlue;
+    background-color: lightcoral;
+    list-style-type: none;
+    width: 100%;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.kekdoboz {
+    list-style-type: none;
+    width: 50px;
+    height: 50px;
+    background: DodgerBlue;
+    
+}
+
+.liladoboz {
+    list-style-type: none;
+    width: 50px;
+    height: 50px;
+    background: purple;
+    
+}
